@@ -10,6 +10,9 @@ apt install zsh -y
 echo "----- installing sudo ------"
 apt install sudo -y
 
+echo "----- installing curl ------"
+apt install curl -y
+
 echo "----- installing openssh-server ------"
 apt install openssh-server -y
 service ssh start
