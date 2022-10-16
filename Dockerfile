@@ -15,9 +15,9 @@ RUN git config --global user.email 40923272+kevinchatham@users.noreply.github.co
 
 RUN git clone https://github.com/kevinchatham/docker-dev-env /root/docker-dev-env
 
-RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 ${USER}
+RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 "${USER}"
 
-RUN  echo '${USER}:${PASS}' | chpasswd
+RUN  echo "${USER}:${PASS}" | chpasswd
 
 EXPOSE 22
 
