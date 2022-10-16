@@ -7,9 +7,6 @@ apt update && apt upgrade -y
 echo "----- installing zsh ------"
 apt install zsh -y
 
-echo "----- installing git ------"
-apt install git -y 
-
 echo "----- installing sudo ------"
 apt install sudo -y
 
