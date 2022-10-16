@@ -4,8 +4,7 @@ ARG USER
 
 ARG PASS
 
-# && apt upgrade -y
-RUN apt update 
+RUN apt update && apt upgrade -y
 
 RUN apt install git -y 
 
