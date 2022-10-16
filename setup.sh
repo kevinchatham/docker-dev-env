@@ -24,10 +24,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plug
 echo "----- installing zsh syntax highlighting ------"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 
-echo "----- configuring git ------"
-git config --global user.name kevinchatham
-git config --global user.email 40923272+kevinchatham@users.noreply.github.com
-
 echo "----- installing neofetch ------"
 apt install neofetch -y
 

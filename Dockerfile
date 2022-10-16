@@ -4,7 +4,13 @@ ARG PASS
 
 FROM ubuntu:latest
 
+RUN apt update && apt upgrade -y
+
 RUN apt install git -y 
+
+RUN git config --global user.name kevinchatham
+
+RUN git config --global user.email 40923272+kevinchatham@users.noreply.github.com
 
 RUN git clone https://github.com/kevinchatham/docker-dev-env git/docker-dev-env
 
