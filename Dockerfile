@@ -20,4 +20,4 @@ RUN  echo "$USER:$PASS" | chpasswd
 
 EXPOSE 22
 
-CMD ["/usr/sbin/sshd","-D"]
+# CMD ["/usr/sbin/sshd","-D"]
